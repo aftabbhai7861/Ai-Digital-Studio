@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💻 Web Development Services</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #fce4ec);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #0d47a1;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+      color: #444;
+      margin-bottom: 30px;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .project-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .project-gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .form-section {
+      background: #fdfdfd;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-section label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .form-section input,
+    .form-section textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    .submit-btn {
+      background-color: #0d47a1;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #003c8f;
+    }
+
+    .back-btn {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      background: #0d47a1;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .back-btn:hover {
+      background-color: #003c8f;
+    }
+
+    @media (max-width: 768px) {
+      .project-gallery img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>💻 Web Development Services</h1>
+    <p>HTML, CSS, JavaScript, PHP – हमारे वेब डेवलपमेंट सर्विस में मिलता है प्रोफेशनल डिज़ाइन, फास्ट परफॉर्मेंस और मोबाइल फ्रेंडली वेबसाइट्स। चाहे पोर्टफोलियो हो या बिज़नेस वेबसाइट – सब कुछ एक ही जगह Ai digital studio.।</p>
+
+    <div class="project-gallery">
+      <img src="imges/11111.jpg" alt="Project 1">
+      <img src="images/web2.jpg" alt="Project 2">
+      <img src="images/web3.jpg" alt="Project 3">
+      <img src="images/web4.jpg" alt="Project 4">
+      <img src="images/web3.jpg" alt="Project 3">
+      <img src="images/web4.jpg" alt="Project 4">
+    </div>
+
+    <div class="form-section">
+        <h1> MR AFTAB web Devloment</h1>
+      <h2>📩 वेबसाइट बनवाने के लिए संपर्क करें</h2>
+      <form>
+        <label for="name">👤 नाम:</label>
+        <input type="text" id="name" name="name" placeholder="अपना नाम दर्ज करें" required>
+
+        <label for="mobile">📱 मोबाइल नंबर:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="मोबाइल नंबर" required>
+
+        <label for="email">📧 ईमेल:</label>
+        <input type="email" id="email" name="email" placeholder="ईमेल एड्रेस">
+
+        <label for="message">💬 वेबसाइट के बारे में जानकारी:</label>
+        <textarea id="message" name="message" rows="5" placeholder="आपकी वेबसाइट कैसी होनी चाहिए?" required></textarea>
+
+        <button type="submit" class="submit-btn">📨 भेजें</button>
+      </form>
+    </div>
+
+    <a href="index.html" class="back-btn">← वापस जाएं</a>
+  </div>
+
+</body>
+</html>
